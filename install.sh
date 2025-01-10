@@ -211,10 +211,11 @@ confirm() {
 }
 
 # installation process
+# installation process
 install_dependencies() {
     apt update
     apt upgrade -y
-    apt install -y git curl php8.0-intl
+    apt install -y git curl php8.0-intl php8.0-mysqli php8.0-curl php8.0-xml php8.0-mbstring php8.0-zip php8.0-bcmath php8.0-soap php8.0-json php8.0-xmlrpc php8.0-common
 }
 
 install_controllpanel() {
